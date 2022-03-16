@@ -3,7 +3,7 @@ body {
     font-family: "Lucida Grande";
   }
   .container {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -229,4 +229,27 @@ footer{
   position: absolute;
   left: 45rem;
   top: 93rem;
+}
+
+.home-title {
+  color: white;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {color: white;}
+  to {color: #f1c40f;}
+} 
+
+@media (max-width: 1000px) {
+  /* .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  } */
+  .c2{
+    width: 975px;
+  }
 }
