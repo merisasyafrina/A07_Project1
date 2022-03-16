@@ -2,22 +2,54 @@ body {
     margin: 0;
     font-family: "Lucida Grande";
   }
-      .container {
+  .container {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-  }
-        header {
+}
+  header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    /* Ubah position ke fixed, dan top ke 0 */
-  position: fixed;
+    background-color: rgba(251, 197, 49, 0.9);
+    position: fixed;
     top: 0;
-    /* Ubah z-index ke 10 */
     z-index: 10;
-  }
-  
+}
+.header-logo {
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 10px 0px;
+  margin-right: 20px;
+}
+.header-list a {
+  float: left;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  text-decoration: none;
+}
+.header-right {
+  float: right;
+  font-size: 20px;
+  /* background-color: rgba(251, 197, 49, 0.5); */
+  transition: all 0.5s;
+}
+.header-right a {
+  color: #fff;
+  margin-top: 10px;
+}
+.btnJoinskuy {
+  background-color: rgba(255, 232, 21, 0.8);
+  padding: 12px 24px;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
+}
+
   .lesson-wrapper {
     height: 500px;
     padding-bottom: 90px;
