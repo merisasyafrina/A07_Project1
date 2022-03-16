@@ -32,6 +32,19 @@ body {
 a {
   text-decoration: none;
 }
+.home{
+  background-image: url("home.jpg");
+  height: 500px;
+  padding: 100px 0 50px 0;
+  background-size: cover;
+  color: white;
+}
+.home h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 190px;
+}
 .header-right {
   float: right;
   font-size: 20px;
@@ -58,7 +71,7 @@ a {
   }
   
   .heading {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 30px;
     color: #5f5d60;
   }
@@ -134,18 +147,21 @@ a {
 .contact-form h3 {
   padding-left: 100px;
   padding-top: 50px;
-  font-size: 50px;
 }
 
 textarea {
-  width: 500px;
+  width: 535px;
   margin-top: 10px;
   margin-bottom: 20px;
-  padding: 20px;
-  font-size: 25px;
+  padding: 1px;
+  font-size: 20px;
   border: 1px solid #dee7ec;
   background-color: #FBC531;
-  margin-left: 90px;
+  margin-left: 100px;
+}
+
+.contact-form p{
+  font-size: 20px;
 }
 
 .section-title {
@@ -174,18 +190,16 @@ input {
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
-  padding-top: 30px;
-  margin-left: 30px;
   text-align: left;
 }
 
 .message {
-  padding: 20px 70px;
+  padding: 15px 50px;
   background-color: #adadad;
   cursor: pointer;
   box-shadow: -3px 7px #636260;
   border: 1px solid #f1c40f;
-  margin-left: 340px;
+  margin-left: 47px;
 }
 
 .message:active {
@@ -195,7 +209,24 @@ input {
 }
 
 .btn {
-  color: #000000;
+  color: white;
   font-size: 30px;
 
+}
+footer{
+  background-color: #FBC531;
+  color: white;
+  height: 90px;
+  text-align: center;
+}
+
+.txt-contents .name{
+  font-weight: bold;
+}
+
+.join-img{
+  width: 40%;
+  position: absolute;
+  left: 45rem;
+  top: 93rem;
 }
