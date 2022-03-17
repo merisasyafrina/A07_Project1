@@ -1,20 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
-  }
-  .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+  margin: 0;
+  font-family: "Lucida Grande";
 }
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(251, 197, 49, 0.9);
-    position: fixed;
-    top: 0;
-    z-index: 10;
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(251, 197, 49, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
 .header-logo {
   float: left;
   font-size: 40px;
@@ -22,6 +30,7 @@ body {
   padding: 10px 0px;
   margin-right: 20px;
 }
+
 .header-list a {
   float: left;
   color: #ffffff;
@@ -29,32 +38,38 @@ body {
   display: inline-block;
   padding: 20px 10px;
 }
+
 a {
   text-decoration: none;
 }
-.home{
+
+.home {
   background-image: url("home.jpg");
   height: 500px;
   padding: 100px 0 50px 0;
   background-size: cover;
   color: white;
 }
-.home h1{
+
+.home h1 {
   font-size: 45px;
   margin-bottom: 10px;
   text-align: center;
   margin-top: 190px;
 }
+
 .header-right {
   float: right;
   font-size: 20px;
   /* background-color: rgba(251, 197, 49, 0.5); */
   transition: all 0.5s;
 }
+
 .header-right a {
   color: #fff;
   margin-top: 10px;
 }
+
 .btnJoinskuy {
   background-color: rgba(255, 232, 21, 0.8);
   padding: 12px 24px;
@@ -63,71 +78,84 @@ a {
   text-align: center;
 }
 
-  .lesson-wrapper {
-    height: 500px;
-    padding-bottom: 90px;
-    background-color: hsl(0, 0%, 81%);
-    text-align: center;
-  }
-  
-  .heading {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #5f5d60;
-  }
-  
-    
-  .lesson {
-    float: left;
-    width: 20%;
-  }
-  
-  .lesson-icon {
-    position: relative;
-  }
-  
-  .lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
-  }
-  
-  .txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 5px;
-    font-size: 15px;
-    color: #000000;
-    line-height : 15px;
-  }
-   
-   
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-  }
-  
-  footer {
-    padding-top: 30px;
-  }
-
-  .lesson-icon > img {
-    max-width: 70%;
-  }
-
-
-  p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 0.25em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.btnJoinskuy:hover {
+  background-color: rgba(255, 255, 0, 0.3);
 }
 
-  .contact-submit {
-    background-color: #ffffff;
-    color: #889eab;
+.menubar {
+  float: right;
+  color: #fff;
+  display: none !important;
+
+}
+
+.lesson-wrapper {
+  padding-bottom: 90px;
+  background-color: rgba(241, 240, 123, 0.74);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.clear {
+  clear: left;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #000000;
+  line-height: 15px;
+}
+
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.lesson-icon>img {
+  max-width: 70%;
+}
+
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.25em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-submit {
+  background-color: #ffffff;
+  color: #889eab;
 }
 
 .contact-form p {
@@ -160,7 +188,7 @@ textarea {
   margin-left: 100px;
 }
 
-.contact-form p{
+.contact-form p {
   font-size: 20px;
 }
 
@@ -190,11 +218,11 @@ input {
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
-  text-align: left;
+
 }
 
 .message {
-  padding: 15px 50px;
+
   background-color: #adadad;
   cursor: pointer;
   box-shadow: -3px 7px #636260;
@@ -211,20 +239,23 @@ input {
 .btn {
   color: white;
   font-size: 30px;
-
+  padding: 15px 50px;
+  display: inline-block;
+  text-align: center;
 }
-footer{
+
+footer {
   background-color: #FBC531;
   color: white;
   height: 90px;
   text-align: center;
 }
 
-.txt-contents .name{
+.txt-contents .name {
   font-weight: bold;
 }
 
-.join-img{
+.join-img {
   width: 40%;
   position: absolute;
   left: 45rem;
@@ -238,18 +269,94 @@ footer{
 }
 
 @keyframes example {
-  from {color: white;}
-  to {color: #f1c40f;}
-} 
+  from {
+    color: white;
+  }
 
-@media (max-width: 1000px) {
+  to {
+    color: #f1c40f;
+  }
+}
+
+/*untuk tablet perubahan safi */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .home h1 {
+    font-size: 32px;
+  }
+
+  .lesson-wrapper h1 {
+    font-size: 32px;
+  }
+
   /* .flex-list {
     flex-wrap: wrap;
   }
   .flex-list li {
     width: 50%;
   } */
-  .c2{
+  .c2 {
     width: 975px;
   }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .join-img {
+    display: none !important;
+  }
+
 }
+
+/*untuk sp perubahan safi*/
+@media all and (max-width : 670px) {
+  .header-list {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menubar {
+    display: block !important;
+    /*ga bisa katanya karena ada floar didalam header list sama header rightnya. aku masih blm faham cara benerinnya gimana */
+  }
+
+  .home h1 {
+    font-size: 24px;
+  }
+
+  .lesson-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .join-img {
+    display: none !important;
+  }
+}
+
+/*untuk tampilannya masih sedikit berantakan apalagi dibagian contact-form
+karena otaku sudah buntu dan mengantuk jadi ga bisa benerin bagian itu untuk saat ini
+miyaneee (:*/
