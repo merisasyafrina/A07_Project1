@@ -45,7 +45,7 @@ a {
 
 .home {
   background-image: url("home.jpg");
-  height: 500px;
+  height: 600px;
   padding: 100px 0 50px 0;
   background-size: cover;
   color: white;
@@ -247,7 +247,7 @@ input {
 footer {
   background-color: #FBC531;
   color: white;
-  height: 90px;
+  height: 130px;
   text-align: center;
 }
 
@@ -259,7 +259,7 @@ footer {
   width: 40%;
   position: absolute;
   left: 45rem;
-  top: 93rem;
+  top: 90rem;
 }
 
 .home-title {
